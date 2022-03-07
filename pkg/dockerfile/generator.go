@@ -147,7 +147,7 @@ func (g *Generator) aptInstalls() (string, error) {
 }
 
 func (g *Generator) installPython() (string, error) {
-	// TODO: check that python version is valid
+	// TODO: #465 #464 check that python version is valid
 
 	py := g.Config.Build.PythonVersion
 
